@@ -1,1 +1,1 @@
-# rock_paper_scissors
+A simple Rock, Paper, Scissors. Built using vanilla Javascript and DOM. 
