@@ -1,1 +1,1 @@
-A simple Rock, Paper, Scissors. Built using vanilla Javascript and DOM. 
+A simple Rock, Paper, Scissors game. Built using vanilla Javascript and DOM. 
