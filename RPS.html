@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My javascript</title>
+    <link rel="stylesheet" href="RPS.css">
+  </head>
+  <body>
+    <main>
+    <div class="wrapper">
+      <h1>Rock, Paper, Scissors!</h1>
+      <h3>Instructions:</h3>
+      <p>You will be playing against the computer. There will be a total of 3 rounds. Good luck!</p>
+      <h2>Choose:</h2>
+    </div>
+    <div class="container">
+      <button>
+        <img id="rock" src="https://static.thenounproject.com/png/477914-200.png">
+      </button>
+      <button>
+        <img id="paper" src="https://static.thenounproject.com/png/477912-200.png">
+      </button>
+      <button>
+        <img id="scissors" src="https://static.thenounproject.com/png/477919-200.png">
+      </button>
+    </div>
+    <div class="wrapper">
+      <p class='computerSelection'></p>
+      <p class='result'></p>
+      <div class = "scores">
+        <p class='playerScore'></p>
+        <p class='computerScore'></p>
+      </div>
+      <p class='finalResult'></p>
+      <button class= "playAgain" onClick= "location.reload()">Play Again</button>
+    </main>
+    <script src="RPS.js"></script>
+</html>
+

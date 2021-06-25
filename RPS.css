@@ -1,0 +1,47 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    height: 10rem;
+    width: 10rem;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.computer-score{
+    color: red;
+    font-size: 1.5rem;
+}
+
+.player-score{
+    color: blue;
+    font-size: 1.5rem;
+    padding-right: 6rem;
+}
+
+.win{
+    color: green;
+    font-size: 1.5rem;
+}
+
+
+.lose{
+    color: red;
+    font-size: 1.5rem;
+}
+
+.playAgain{
+    font-size: 1.5rem;
+}
+
